@@ -1,0 +1,8 @@
+__pycache__/
+venv/
+.venv/
+data/.prev_latest.json
+*.pyc
+.pytest_cache/
+node_modules/
+/.DS_Store
