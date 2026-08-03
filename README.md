@@ -4,11 +4,17 @@ Purpose: discover and monitor Walmart kayaks for price and stock changes near ZI
 
 Quick start
 
-- Add repository secrets (`SMTP_SERVER`, `SMTP_PORT`, `SMTP_USERNAME`, `SMTP_PASSWORD`, `EMAIL_FROM`, `EMAIL_TO`).
 - Enable GitHub Pages for branch `main` and folder `/docs`.
 - Workflows: `.github/workflows/weekly-discovery.yml` and `.github/workflows/daily.yml` will run discovery and monitor jobs.
 
+Alerting: GitHub Issues
+
+- Alerts are posted as GitHub Issues in this repository (Actions uses `GITHUB_TOKEN`).
+- Ensure the `daily` workflow has `permissions: issues: write` (already configured) so it can create issues.
+- Subscribe to repository notifications or watch issues to receive alerts via GitHub notifications.
+
 Local run
+
 
 Install requirements and Playwright browsers:
 
@@ -42,7 +48,9 @@ Workflows
 - `daily.yml`: runs daily and on workflow_dispatch; runs monitor -> detect -> alerts -> dashboard -> commit
 - `weekly-discovery.yml`: runs weekly to discover new products and update `data/kayaks.json`
 
+
 Notes & troubleshooting
 
 - This project prefers structured data on Walmart product pages; if the site changes, you may need to update `src/walmart_client.py` parsing logic.
 - Be mindful of Walmart anti-bot protections. Playwright uses a real browser; if CI runs are blocked, consider adding delays or rotating IPs.
+
