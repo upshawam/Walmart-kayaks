@@ -4,119 +4,119 @@
     "name": "Sample Kayak A",
     "url": "https://www.walmart.com/ip/Sample-Kayak-A/0000001",
     "store": "Gallatin",
-    "price": 230.83,
-    "list_price": 382.76,
-    "in_stock": false,
-    "timestamp": "2026-08-03T19:55:28.566236Z"
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-08-03T21:47:19.505959Z"
   },
   {
     "sku": "0000001",
     "name": "Sample Kayak A",
     "url": "https://www.walmart.com/ip/Sample-Kayak-A/0000001",
     "store": "Hendersonville",
-    "price": 361.18,
-    "list_price": 401.43,
-    "in_stock": false,
-    "timestamp": "2026-08-03T19:55:28.566270Z"
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-08-03T21:47:33.690272Z"
   },
   {
     "sku": "0000001",
     "name": "Sample Kayak A",
     "url": "https://www.walmart.com/ip/Sample-Kayak-A/0000001",
     "store": "Lebanon",
-    "price": 732.41,
-    "list_price": 906.41,
+    "price": null,
+    "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-08-03T19:55:28.566285Z"
+    "timestamp": "2026-08-03T21:47:47.872912Z"
   },
   {
     "sku": "0000001",
     "name": "Sample Kayak A",
     "url": "https://www.walmart.com/ip/Sample-Kayak-A/0000001",
     "store": "Madison",
-    "price": 286.78,
-    "list_price": 331.83,
-    "in_stock": false,
-    "timestamp": "2026-08-03T19:55:28.566300Z"
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-08-03T21:48:01.954559Z"
   },
   {
     "sku": "0000001",
     "name": "Sample Kayak A",
     "url": "https://www.walmart.com/ip/Sample-Kayak-A/0000001",
     "store": "Mt. Juliet",
-    "price": 803.39,
-    "list_price": 977.47,
+    "price": null,
+    "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-08-03T19:55:28.566315Z"
+    "timestamp": "2026-08-03T21:48:16.289644Z"
   },
   {
     "sku": "0000001",
     "name": "Sample Kayak A",
     "url": "https://www.walmart.com/ip/Sample-Kayak-A/0000001",
     "store": "Hermitage",
-    "price": 213.0,
-    "list_price": 383.84,
-    "in_stock": false,
-    "timestamp": "2026-08-03T19:55:28.566329Z"
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-08-03T21:48:30.598362Z"
   },
   {
     "sku": "0000002",
     "name": "Sample Kayak B",
     "url": "https://www.walmart.com/ip/Sample-Kayak-B/0000002",
     "store": "Gallatin",
-    "price": 411.52,
-    "list_price": 500.91,
+    "price": null,
+    "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-08-03T19:55:28.566346Z"
+    "timestamp": "2026-08-03T21:48:44.802081Z"
   },
   {
     "sku": "0000002",
     "name": "Sample Kayak B",
     "url": "https://www.walmart.com/ip/Sample-Kayak-B/0000002",
     "store": "Hendersonville",
-    "price": 435.85,
-    "list_price": 590.85,
+    "price": null,
+    "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-08-03T19:55:28.566362Z"
+    "timestamp": "2026-08-03T21:48:59.143707Z"
   },
   {
     "sku": "0000002",
     "name": "Sample Kayak B",
     "url": "https://www.walmart.com/ip/Sample-Kayak-B/0000002",
     "store": "Lebanon",
-    "price": 327.87,
-    "list_price": 396.44,
-    "in_stock": false,
-    "timestamp": "2026-08-03T19:55:28.566376Z"
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-08-03T21:49:13.373038Z"
   },
   {
     "sku": "0000002",
     "name": "Sample Kayak B",
     "url": "https://www.walmart.com/ip/Sample-Kayak-B/0000002",
     "store": "Madison",
-    "price": 813.84,
-    "list_price": 890.72,
-    "in_stock": false,
-    "timestamp": "2026-08-03T19:55:28.566391Z"
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-08-03T21:49:27.559198Z"
   },
   {
     "sku": "0000002",
     "name": "Sample Kayak B",
     "url": "https://www.walmart.com/ip/Sample-Kayak-B/0000002",
     "store": "Mt. Juliet",
-    "price": 772.12,
-    "list_price": 924.81,
+    "price": null,
+    "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-08-03T19:55:28.566405Z"
+    "timestamp": "2026-08-03T21:49:41.740551Z"
   },
   {
     "sku": "0000002",
     "name": "Sample Kayak B",
     "url": "https://www.walmart.com/ip/Sample-Kayak-B/0000002",
     "store": "Hermitage",
-    "price": 412.31,
-    "list_price": 585.74,
-    "in_stock": false,
-    "timestamp": "2026-08-03T19:55:28.566418Z"
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-08-03T21:49:55.960156Z"
   }
 ]
