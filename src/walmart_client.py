@@ -32,7 +32,18 @@ def fetch_page(url: str) -> str:
         try:
             page = browser.new_page(user_agent=SETTINGS.user_agent)
             page.goto(url, timeout=30000)
-            time.sleep(0.8)
+            try:
+                page.wait_for_load_state("networkidle", timeout=10000)
+            except Exception:
+                # continue even if networkidle wasn't reached
+                pass
+            # scroll to bottom a few times to trigger lazy loading
+            try:
+                for _ in range(6):
+                    page.evaluate("window.scrollBy(0, document.body.scrollHeight)")
+                    time.sleep(0.5)
+            except Exception:
+                pass
             content = page.content()
             return content
         finally:
@@ -53,20 +64,40 @@ def discover_from_search(pages: int = 3) -> List[Dict]:
             logger.exception("Failed to fetch search page %s", url)
             continue
         soup = BeautifulSoup(html, "html.parser")
-        for a in soup.select("a.product-title-link, a.search-result-product-title-link"):
+        # write debug HTML for inspection
+        try:
+            from pathlib import Path
+
+            Path("data").mkdir(parents=True, exist_ok=True)
+            Path(f"data/debug_search_page_{p}.html").write_text(html, encoding="utf-8")
+        except Exception:
+            logger.exception("Failed to write debug HTML for page %s", p)
+        # More permissive discovery: any anchor that looks like a product link
+        for a in soup.find_all("a", href=True):
             href = a.get("href")
             if not href:
                 continue
             if href.startswith("/"):
                 href = "https://www.walmart.com" + href
-            sku = _extract_sku_from_url(href) or a.get("data-item-id")
+            # Look for product-like paths
+            if not re.search(r"/ip/|/product/|/p/", href):
+                continue
+            sku = _extract_sku_from_url(href) or a.get("data-item-id") or a.get("data-id")
             name = a.get_text(strip=True) or a.get("aria-label") or ""
+            # fallback: attempt to extract numeric sku from href
             if not sku:
-                # try to extract from data-analytics
-                pass
+                m = re.search(r"/(\d{4,})", href)
+                if m:
+                    sku = m.group(1)
             if not sku:
                 continue
+            if sku in found:
+                # prefer non-empty name/url
+                if not found[sku].get("name") and name:
+                    found[sku]["name"] = name
+                continue
             found[sku] = {"sku": sku, "name": name, "url": href}
+        logger.info("Page %d: discovered %d candidate products", p, len(found))
         time.sleep(SETTINGS.rate_limit_seconds)
     return list(found.values())
 
