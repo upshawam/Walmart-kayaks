@@ -5,7 +5,7 @@
     "url": "https://www.walmart.com/ip/Sample-Kayak-A/0000001",
     "first_seen": "2026-08-03T19:51:44.629397Z",
     "last_seen": "2026-08-03T19:51:44.629397Z",
-    "active": true,
+    "active": false,
     "metadata": {}
   },
   {
@@ -14,7 +14,7 @@
     "url": "https://www.walmart.com/ip/Sample-Kayak-B/0000002",
     "first_seen": "2026-08-03T19:51:44.629397Z",
     "last_seen": "2026-08-03T19:51:44.629397Z",
-    "active": true,
+    "active": false,
     "metadata": {}
   }
 ]
