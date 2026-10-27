@@ -10438,5 +10438,125 @@
     "list_price": null,
     "in_stock": true,
     "timestamp": "2026-10-26T12:51:09.527097Z"
+  },
+  {
+    "sku": "0000001",
+    "name": "Sample Kayak A",
+    "url": "https://www.walmart.com/ip/Sample-Kayak-A/0000001",
+    "store": "Gallatin",
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-10-27T12:01:47.684844Z"
+  },
+  {
+    "sku": "0000001",
+    "name": "Sample Kayak A",
+    "url": "https://www.walmart.com/ip/Sample-Kayak-A/0000001",
+    "store": "Hendersonville",
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-10-27T12:02:01.786983Z"
+  },
+  {
+    "sku": "0000001",
+    "name": "Sample Kayak A",
+    "url": "https://www.walmart.com/ip/Sample-Kayak-A/0000001",
+    "store": "Lebanon",
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-10-27T12:02:15.767662Z"
+  },
+  {
+    "sku": "0000001",
+    "name": "Sample Kayak A",
+    "url": "https://www.walmart.com/ip/Sample-Kayak-A/0000001",
+    "store": "Madison",
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-10-27T12:02:29.885635Z"
+  },
+  {
+    "sku": "0000001",
+    "name": "Sample Kayak A",
+    "url": "https://www.walmart.com/ip/Sample-Kayak-A/0000001",
+    "store": "Mt. Juliet",
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-10-27T12:02:44.266160Z"
+  },
+  {
+    "sku": "0000001",
+    "name": "Sample Kayak A",
+    "url": "https://www.walmart.com/ip/Sample-Kayak-A/0000001",
+    "store": "Hermitage",
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-10-27T12:02:58.292965Z"
+  },
+  {
+    "sku": "0000002",
+    "name": "Sample Kayak B",
+    "url": "https://www.walmart.com/ip/Sample-Kayak-B/0000002",
+    "store": "Gallatin",
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-10-27T12:03:12.539845Z"
+  },
+  {
+    "sku": "0000002",
+    "name": "Sample Kayak B",
+    "url": "https://www.walmart.com/ip/Sample-Kayak-B/0000002",
+    "store": "Hendersonville",
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-10-27T12:03:26.594198Z"
+  },
+  {
+    "sku": "0000002",
+    "name": "Sample Kayak B",
+    "url": "https://www.walmart.com/ip/Sample-Kayak-B/0000002",
+    "store": "Lebanon",
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-10-27T12:03:40.722082Z"
+  },
+  {
+    "sku": "0000002",
+    "name": "Sample Kayak B",
+    "url": "https://www.walmart.com/ip/Sample-Kayak-B/0000002",
+    "store": "Madison",
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-10-27T12:03:54.998141Z"
+  },
+  {
+    "sku": "0000002",
+    "name": "Sample Kayak B",
+    "url": "https://www.walmart.com/ip/Sample-Kayak-B/0000002",
+    "store": "Mt. Juliet",
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-10-27T12:04:09.243409Z"
+  },
+  {
+    "sku": "0000002",
+    "name": "Sample Kayak B",
+    "url": "https://www.walmart.com/ip/Sample-Kayak-B/0000002",
+    "store": "Hermitage",
+    "price": null,
+    "list_price": null,
+    "in_stock": true,
+    "timestamp": "2026-10-27T12:04:23.310136Z"
   }
 ]
