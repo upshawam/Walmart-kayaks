@@ -7,7 +7,7 @@
     "price": null,
     "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-10-30T12:01:46.534641Z"
+    "timestamp": "2026-10-31T12:01:53.606479Z"
   },
   {
     "sku": "0000001",
@@ -17,7 +17,7 @@
     "price": null,
     "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-10-30T12:02:01.144346Z"
+    "timestamp": "2026-10-31T12:02:07.817362Z"
   },
   {
     "sku": "0000001",
@@ -27,7 +27,7 @@
     "price": null,
     "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-10-30T12:02:15.193890Z"
+    "timestamp": "2026-10-31T12:02:21.861383Z"
   },
   {
     "sku": "0000001",
@@ -37,7 +37,7 @@
     "price": null,
     "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-10-30T12:02:29.357678Z"
+    "timestamp": "2026-10-31T12:02:35.951784Z"
   },
   {
     "sku": "0000001",
@@ -47,7 +47,7 @@
     "price": null,
     "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-10-30T12:02:43.514699Z"
+    "timestamp": "2026-10-31T12:02:50.314708Z"
   },
   {
     "sku": "0000001",
@@ -57,7 +57,7 @@
     "price": null,
     "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-10-30T12:02:57.733106Z"
+    "timestamp": "2026-10-31T12:03:04.570075Z"
   },
   {
     "sku": "0000002",
@@ -67,7 +67,7 @@
     "price": null,
     "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-10-30T12:03:11.936344Z"
+    "timestamp": "2026-10-31T12:03:19.013748Z"
   },
   {
     "sku": "0000002",
@@ -77,7 +77,7 @@
     "price": null,
     "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-10-30T12:03:26.432730Z"
+    "timestamp": "2026-10-31T12:03:33.086841Z"
   },
   {
     "sku": "0000002",
@@ -87,7 +87,7 @@
     "price": null,
     "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-10-30T12:03:40.943328Z"
+    "timestamp": "2026-10-31T12:03:47.214671Z"
   },
   {
     "sku": "0000002",
@@ -97,7 +97,7 @@
     "price": null,
     "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-10-30T12:03:55.409564Z"
+    "timestamp": "2026-10-31T12:04:01.551448Z"
   },
   {
     "sku": "0000002",
@@ -107,7 +107,7 @@
     "price": null,
     "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-10-30T12:04:09.797767Z"
+    "timestamp": "2026-10-31T12:04:16.105910Z"
   },
   {
     "sku": "0000002",
@@ -117,6 +117,6 @@
     "price": null,
     "list_price": null,
     "in_stock": true,
-    "timestamp": "2026-10-30T12:04:23.977821Z"
+    "timestamp": "2026-10-31T12:04:30.681131Z"
   }
 ]
